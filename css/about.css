@@ -3,8 +3,9 @@ body {
 }
 .section__about {
 	
-	background-image: url(../img/2-copy-2.png);	
+	background: url(../img/2-copy-2.png)  no-repeat center top fixed;	
 	background-color: #ececec;
+	background-size: cover;
 }
 .title__about {
 	width: 246px;

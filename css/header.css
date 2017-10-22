@@ -3,8 +3,10 @@ body {
 }
 header {
 	
-	background-image: url(../img/bc_h.png);
-	background-color: black;	
+	background: url(../img/bc_h.png) no-repeat center top fixed;
+	background-color: black;
+	background-size: cover;
+	
 }
 
 

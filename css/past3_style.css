@@ -1,7 +1,8 @@
 
 .section_our_skills {
-	background-image: url(../img/work-station-straight-on-view-copy-2.png);
+	background: url(../img/work-station-straight-on-view-copy-2.png) no-repeat center  fixed;
 	background-position:center;
+	background-size: cover;
 }
 
 .content_our_skills {
