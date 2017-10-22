@@ -1,0 +1,232 @@
+body, 
+html {
+	font-size: 16px;
+}
+
+
+.section_cliens {
+	margin: 0 auto;	
+}
+
+.content_cliens {
+	margin-bottom: 7.25%;
+	margin-top: 7.5%; 
+	text-align: center;
+}
+.g_title {
+	 
+			
+}
+
+.paragraph {
+	font-family: "Crimson Text";
+	font-size: 1.5rem;
+	font-weight: 400;
+	margin-top: 2.3125%;
+}
+
+.content_cliens_icon {
+	width: 100%;
+	font-size: 0;
+	padding: 4.6875% 0;
+}
+
+.cliens {
+	display: inline-block;
+	/* float: left; */
+	width: 25%;
+	margin: 0;		
+	position: relative;
+	vertical-align: middle;
+}
+
+.cliens_icon_1 {
+	padding-left: 40%;
+	width: 20.25%;
+}
+
+.cliens_icon_2 {
+	padding-left: 29.25%;
+	width: 41.5%;
+}
+
+.cliens_icon_3 {
+	padding-left: 27.25%;
+	width: 44.75%;
+}
+
+.cliens_icon_4 {
+	padding-left: 27.5%;
+	width: 44.5%;
+}
+
+.cliens_icon_6 {
+	padding-left: 27.5%;
+	width: 44.75%;
+}
+
+.cliens_icon_5 {
+	padding-left: 26.75%;
+	width: 46.5%;
+}
+
+.cliens_icon_7 {
+	padding-left: 26.25%;
+	width: 46.5%;
+}
+
+.cliens_icon_8 {
+	padding-left: 31.25%;
+	width: 36.75%;
+}
+
+.content_contact {
+	text-align: center;	
+}
+
+.section_contact  {
+	background-image: url() ;
+	background-position: no-repeat #303030;
+	background-size: cover;
+	background-position: center;
+	
+} 
+/*добавить к инпуту плейсхолдеры*/
+.content_contact .g_title {
+	color: white;
+	display: inline-block;
+	padding-top: 1.5313%
+}
+
+.content_comment {
+	width: 31.25%;
+	margin: 0 auto;
+	padding-bottom: 3.75%;
+}
+
+.comment_item {
+	margin-top: 19.8%;
+	position: relative;
+	padding-bottom: 1rem;
+}
+
+.name, 
+.email {
+	width: 48.2%;
+	box-sizing: border-box;	
+}
+
+.email {
+	position: absolute;
+	right: 0;
+	/* margin-left: 3.8%; */
+}
+
+.comment {
+	width: 100%;
+	margin: 0;
+	box-sizing: border-box;
+	padding-bottom: 39%;
+	/* height: 220px; */
+}
+
+.submit {
+	color: #000000;
+	font-family: Raleway;
+	font-size: .875rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	background: #f4c60b;
+	width: 32%;
+	padding: 1.8% 0;
+	cursor: pointer;
+	margin-top: 2.2%;
+}
+
+.section_footer {
+	background: #303030; 
+}
+
+.content_footer {
+	margin: 0 auto;
+}
+
+.footer_icon {
+	padding-top: 3.3125%;
+	width: 2.5%;
+	margin: 0 auto;
+	/* background: url(pic/icon/logo.png);
+	background-size: 40px auto;
+	background-repeat: no-repeat;
+	background-position: 50% 100%; */
+}
+
+.title_footer {
+	color: #ffffff;
+	font-size: 1.5rem;
+	font-family: Raleway;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0;
+	padding-top: 0.9375%;
+}
+
+.paragraph_footer {
+	color: #ffffff;
+	font-family: "Crimson Text";
+	font-size: .75rem;
+	font-style: italic;
+	text-align: center;
+	margin: 0;
+	padding-top: 0.5%;
+}
+
+.social_list {
+	margin-top: 4%;
+	padding-left: 0;
+	text-align: center;
+}
+
+.social_list li {
+	display: inline-block;	
+	margin: 0 .5rem;
+}
+
+.footer_small {
+	color: #ffffff;
+	font-family: Raleway;
+	font-size: .75rem;
+	font-weight: 300;
+	text-align: center;
+	/* padding: 2.125% 0 1%; */
+	padding-bottom: 1%;
+	margin-top: 2.125%;
+1}
+
+@media screen and (max-width: 420px) {
+    body, 
+    html {
+    	font-size: 25%;
+    }
+
+    .name, .email {
+ 		font-size: .625rem;
+ 	} 
+
+ 	.submit {
+ 		font-size: .5rem;
+ 	}
+
+ 	.social_list li {
+ 		margin: 0 0.1rem;
+ 		width: 2%;
+ 	}
+}
+ @media screen and (max-width: 300px) {
+ 		.submit {
+ 		width: 40%;
+ 	}
+ }
+
+ 	

@@ -1,0 +1,131 @@
+@media screen and (min-width: 580px) {
+	.name_menu {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 580px) {
+
+	.content_comment {
+    	width: 54.25%;
+	}
+
+	.title__about {
+    
+    	padding-top: 69px;
+	}
+
+	.preamble_text {
+ 
+    	margin-top: 80px;
+    }
+
+	.g_text_main {
+			
+			font-size: 50px;
+	}
+	
+	.text_after_title {
+
+		font-size: 18px;	
+	}
+
+	.text_mouse {
+		font-size: 14px;
+	}
+	.mouse-icon {
+		width: 29px;
+		height: 60px;
+	}
+
+	.g_title {
+		font-size: 20px;
+	}
+
+	.g_input { 
+
+		font-size: 12px; 
+	}
+
+	.paragraph {
+		font-size: 20px;
+	}
+	
+	.submit {
+		font-size: 8px;
+	}
+
+	.circles {
+		display: none;
+	}
+
+	 /*--------------*/
+
+
+	 a {
+    text-decoration: none;
+		}
+	
+
+
+.text__anchor {
+
+	padding-top: 30px;
+
+}
+
+.text__anchor:hover {
+	border-bottom: 3px solid #666;
+	transition: .4s;
+}
+.text__anchor a   {
+   
+    color: #FFF;
+    padding: 10px; 
+    display: block;
+
+    transition: .7s all;
+}
+
+ a:hover {
+    
+    padding: 10px 0 10px 20px;
+}
+
+.menu_list {
+    position: relative;
+}
+.menu_drop {
+    position: absolute;
+  
+    top: -9999em;
+    opacity: 1;
+
+    
+}
+
+.text__anchor:hover .menu_drop {
+    opacity: 1;
+    right: 14%;
+    top: 3%;
+    
+}
+
+}
+
+@media screen and (max-width: 701px) {
+	.wacom, .photography, .performance {
+    
+    	padding: 35px 5px;
+	}
+
+	.name_icons1, .name_icons2, .name_icons3 {
+    
+    	padding-top: 20px;
+	}
+
+
+@media screen and (max-width: 470px) {
+.name, .email {
+	font-size: 60%;
+}

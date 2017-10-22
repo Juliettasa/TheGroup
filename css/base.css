@@ -1,0 +1,101 @@
+body {
+	}
+
+.clearfix {
+	content: " ";
+	overflow: hidden;
+	clear: both;
+	display: block;
+}
+
+.container {
+	max-width: 1145px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+ .g_text_main, .g_title  {	
+	font-family: "Raleway ExtraBold" ;	
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 0 auto; /* добавила после  */
+}
+
+.g_text_main { 
+	color: #f4c60b;	
+	font-size: 72px;
+			
+} /* клас для h1 */
+
+.g_title {
+	color: #000000;	
+	font-size: 48px;
+	text-decoration: underline;
+	text-decoration-color: #f4c60b;	
+
+	
+	
+} /* клас для h2 */
+
+	
+	.title--white {
+		color: #ffffff;
+	}
+
+.g_title_secondary {
+	color: #000000;	
+	font-size: 24px;	
+} /* клас для h3 */
+
+.paragraph {
+	color: #000000;
+	font-family: "CrimsonText";
+	font-size: 24px;
+	font-weight: 400;
+	text-align: center; /* добавила после  */
+} /* клас для текста под .g_title */
+
+	.preamble {
+		color: #000000;
+		font-family: "CrimsonText";
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 36px;
+		text-align: center; /* добавила после  */
+	} /* клас для текста в секции about */
+	
+	.paragraph_secondary {
+	color: #000000;
+	font-family: "Raleway";
+	font-size: 14px;
+	font-weight: 300;
+	text-align: center; /* добавила после  */
+} /* клас для текста */	
+
+
+.g_button_load {
+	border: 3px solid #f4c60b;
+	color: #000000;
+	font-family: "Raleway Bold";
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 1em 2.5em;
+} /* клас для кнопки */	
+
+	.button_buy {
+		background: white;
+		border: none;
+		font-size: 14px;		
+		padding: 1.215em 4em;
+	} /* клас для кнопки */	
+
+.g_input {
+	border: 3px solid #ffffff;
+	color: #ffffff;
+	font-family: "Raleway Bold";
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase; 
+	padding: 1em;
+}

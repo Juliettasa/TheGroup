@@ -1,0 +1,78 @@
+body {
+	
+}
+.section__header {
+	
+	background-image: url(../img/bc_h.png);
+	background-color: black;	
+}
+
+
+
+.top__header {
+	padding: 0 10px;
+	height: 30px;
+	margin-bottom: 194px;
+}
+
+
+.logo {
+	display: inline-block;
+	float: left;
+	width: 40px;
+	height: 30px;
+	padding-top: 30px;
+}
+
+.text__anchor  {
+	padding: 48px 5px 5px 5px;
+	display: inline-block;
+	text-align:center;
+	box-sizing: border-box;
+	float: right;
+	color: white;
+	font-family: "Raleway Bold";
+}
+
+
+.text_after_title {
+	color: white;
+	margin-bottom: 127px;
+	font-family: CrimsonText Italic;
+	font-size: 24px;
+}
+
+.mouse-icon {
+
+	width: 29px;
+	height: 67px;
+	margin-bottom: 29px;
+}
+
+.text_mouse {
+	font-family: Raleway;
+	color: white;
+	font-size: 18px;
+}
+
+
+
+.circles {
+	display: inline-block;
+	vertical-align: top;
+	width: 5px;
+	height: 5px;
+	border: 1px solid #f4c60b;
+	border-radius: 10px;
+	margin: 5px;
+}
+
+.three__circles {
+	margin-top: 25px;
+	padding-bottom: 34px;
+}
+
+.full {
+	background: #f4c60b;
+}
+

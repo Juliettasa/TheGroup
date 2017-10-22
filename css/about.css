@@ -1,0 +1,31 @@
+body {
+	
+}
+.section__about {
+	
+	background-image: url(../img/2-copy-2.png);	
+	background-color: #ececec;
+}
+.title__about {
+	width: 246px;
+	padding-top: 114px;
+}
+
+
+
+.preamble_text {
+	margin: 0 auto;
+	max-width: 1020px;
+	margin-top: 149px;
+	line-height: 30px;
+}
+.button__about {
+		margin-top: 92px;
+		margin-bottom: 119px;
+}
+
+@media screen and (max-width: 1060px) {
+
+	.preamble_text {
+		padding: 0 20px;
+	}

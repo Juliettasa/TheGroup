@@ -1,0 +1,218 @@
+
+.section_our_skills {
+	background-image: url(../img/work-station-straight-on-view-copy-2.png);
+	background-position:center;
+}
+
+.content_our_skills {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.our_skills {
+	padding-top: 119px;
+	text-align: center;
+	margin-bottom: 188px;
+}
+
+.circle {
+	display: inline-block;
+	width: 170px;
+	padding-bottom: 122px;
+	margin: 0 78px;
+}
+
+.round75,
+.round90,
+.round30 {
+	width: 167px;
+	height: 168px;
+}
+
+.round75 {
+	background-image: url(../pic/icons/slice-1.png);
+}
+
+.round90 {
+	background-image: url(../pic/icons/slice-2.png);
+}
+
+.round30 {
+	background-image: url(../pic/icons/slice-3.png);
+}
+
+.round_text {
+	padding-top: 58px;
+	font-size: 24px;
+}
+
+
+.section_quote {
+	background-image: url(../img/layer-20.png); 
+	background-size: cover;
+	background-color: #000000;
+}
+
+.content_quote{
+	padding: 120px 0;
+}
+
+.all_quote { 
+	margin:  0 212px;
+}
+
+.quote {
+	color: #ffffff;
+	font-family: "CrimsonText";
+	font-size: 34px;
+	
+	text-align: center;
+	padding: 25px;
+}
+
+
+
+
+
+
+.left,
+.right {
+	width: 30px;
+	height: 22px;
+}
+
+.left {
+	background-image: url(../pic/icons/-left.png);
+	float: left;
+}
+
+.right {
+	background-image: url(../pic/icons/-right.png);
+	float: right;
+}
+
+.author {
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 400;
+	text-align: right;
+	padding-top: 47px;
+	padding-right: 264px;
+	
+}
+
+@media screen and (max-width: 800px) {
+	.author {
+		padding-right: 164px;
+	}
+}
+.content_services {
+	padding-bottom: 118px;
+	padding-top: 118px;
+	margin: 0 auto;
+}
+
+.services_title {
+	padding-bottom: 122px;
+	text-align: center;
+}
+
+.wacom,
+.photography,
+.performance {
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px 5px;
+}
+
+.wacon_icon,
+.photography_icon,
+.performance_icon {
+	margin:0 auto;
+}
+
+.wacon_icon {
+	width: 140px;
+    height: 76px;
+	background-image: url(../pic/icons/wacom.png);
+}
+
+.photography_icon {
+	width: 97px;
+    height: 61px;
+    margin-top: 5px;
+    margin-bottom: 11px;
+	background-image: url(../pic/icons/camera.png);
+}
+
+.performance_icon {
+	width: 127px;
+    height: 74px;
+    margin-top: 3px;
+	background-image: url(../pic/icons/notebook.png);
+}
+
+.name_icons1, 
+.name_icons2,
+.name_icons3 {
+	font-size: 30px;
+	margin: 0 auto;
+	padding-bottom: 11px;
+	padding-top: 73px;
+	text-align: center;
+	
+	font-family: Raleway ExtraBold;
+	text-transform: uppercase;
+}
+
+
+.text_services1,
+.text_services2,
+.text_services3 {
+	line-height: 24px;
+	margin: 31px auto 0;
+	word-wrap: normal;
+	width: 260px;
+}
+
+.box_services {
+	margin: 0 auto;
+	text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+
+	.quote {
+		font-size: 24px;
+	}
+.content_quote {
+    padding: 120px 10px;
+}
+	
+	
+	
+
+}
+
+
+@media screen and (max-width: 1005px) {
+
+	
+	.all_quote {
+     margin: 0 100px;
+
+}
+}
+
+@media screen and (max-width: 580px) {
+.button__about {
+    margin: 50px 0 10px 0;
+
+    }
+}
+
+@media screen and (max-width: 500px){
+	.button__about {
+		margin-top: 10px;
+	}
+}
