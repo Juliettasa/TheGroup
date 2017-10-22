@@ -90,23 +90,22 @@
  a:hover {
     
     padding: 10px 0 10px 20px;
+    text-decoration: underline;
 }
 
-.menu_list {
-    position: relative;
-}
+
 .menu_drop {
     position: absolute;
   
     top: -9999em;
-    opacity: 1;
+    opacity: 0;
 
     
 }
 
 .text__anchor:hover .menu_drop {
     opacity: 1;
-    right: 14%;
+    right: 13%;
     top: 3%;
     
 }
